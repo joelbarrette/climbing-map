@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Squamish Chief - Climbing Route Map</title>
+    
+    <!-- CesiumJS -->
+    <script src="https://cesium.com/downloads/cesiumjs/releases/1.112/Build/Cesium/Cesium.js"></script>
+    <link href="https://cesium.com/downloads/cesiumjs/releases/1.112/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+    
+    <!-- Application Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="cesiumContainer"></div>
+    
+    <!-- Control Panel -->
+    <div id="controlPanel">
+        <h2>Squamish Chief</h2>
+        <div class="control-section">
+            <h3>Terrain</h3>
+            <label>
+                <input type="checkbox" id="showTerrain" checked>
+                Show BC LiDAR Terrain
+            </label>
+            <label>
+                <input type="range" id="terrainExaggeration" min="1" max="3" step="0.1" value="1">
+                Terrain Exaggeration: <span id="exaggerationValue">1.0</span>
+            </label>
+        </div>
+        
+        <div class="control-section">
+            <h3>Climbing Routes</h3>
+            <label>
+                <input type="checkbox" id="showRoutes" checked>
+                Show Routes
+            </label>
+            <label>
+                <input type="checkbox" id="showLabels" checked>
+                Show Route Labels
+            </label>
+            <div id="routeFilter">
+                <p>Filter by Grade:</p>
+                <label><input type="checkbox" class="grade-filter" value="5.6-5.9" checked> 5.6-5.9</label>
+                <label><input type="checkbox" class="grade-filter" value="5.10" checked> 5.10</label>
+                <label><input type="checkbox" class="grade-filter" value="5.11" checked> 5.11</label>
+                <label><input type="checkbox" class="grade-filter" value="5.12" checked> 5.12</label>
+                <label><input type="checkbox" class="grade-filter" value="5.13+" checked> 5.13+</label>
+            </div>
+        </div>
+        
+        <div class="control-section">
+            <h3>Camera Presets</h3>
+            <button id="viewOverview">Overview</button>
+            <button id="viewSouthFace">South Face</button>
+            <button id="viewGrandWall">Grand Wall</button>
+            <button id="viewApronArea">Apron Area</button>
+        </div>
+        
+        <div class="control-section">
+            <button id="addRoute" class="primary-btn">Add New Route</button>
+        </div>
+    </div>
+    
+    <!-- Route Info Panel -->
+    <div id="infoPanel" class="hidden">
+        <button id="closeInfo" class="close-btn">&times;</button>
+        <h3 id="routeName"></h3>
+        <div id="routeDetails"></div>
+    </div>
+    
+    <!-- Add Route Form -->
+    <div id="addRouteForm" class="hidden">
+        <h3>Add New Climbing Route</h3>
+        <form id="newRouteForm">
+            <label>
+                Route Name:
+                <input type="text" name="name" required>
+            </label>
+            <label>
+                Grade:
+                <select name="grade" required>
+                    <option value="5.6-5.9">5.6-5.9</option>
+                    <option value="5.10">5.10a-d</option>
+                    <option value="5.11">5.11a-d</option>
+                    <option value="5.12">5.12a-d</option>
+                    <option value="5.13+">5.13+</option>
+                </select>
+            </label>
+            <label>
+                Length (m):
+                <input type="number" name="length" min="0">
+            </label>
+            <label>
+                Pitches:
+                <input type="number" name="pitches" min="1" value="1">
+            </label>
+            <label>
+                Description:
+                <textarea name="description" rows="3"></textarea>
+            </label>
+            <p class="instruction">Click on the map to draw the route path. Right-click to finish.</p>
+            <div class="form-actions">
+                <button type="button" id="cancelRoute">Cancel</button>
+                <button type="submit" class="primary-btn">Save Route</button>
+            </div>
+        </form>
+    </div>
+    
+    <!-- Loading Indicator -->
+    <div id="loadingIndicator" class="hidden">
+        <div class="spinner"></div>
+        <p>Loading terrain data...</p>
+    </div>
+    
+    <!-- Scripts -->
+    <script src="terrain.js"></script>
+    <script src="routes.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Raw LiDAR data (large files)
+data/raw/*.tif
+data/raw/*.tiff
+data/processed/
+
+# Terrain tiles are included when you want to deploy
+# Uncomment if you don't want them in git:
+# terrain-tiles/
+
+# Keep example files
+!terrain-tiles/layer.json.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+
+# Logs
+*.log

@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-123.1567, 49.6815, 450],
+          [-123.1567, 49.6817, 500],
+          [-123.1566, 49.6819, 550],
+          [-123.1565, 49.6821, 600],
+          [-123.1565, 49.6823, 650],
+          [-123.1564, 49.6825, 700]
+        ]
+      },
+      "properties": {
+        "name": "Grand Wall",
+        "grade": "5.11",
+        "length": 400,
+        "pitches": 9,
+        "description": "A classic Squamish multipitch route on excellent granite. The Grand Wall is one of the most sought-after climbs in North America.",
+        "firstAscent": "Jim Baldwin & Ed Cooper (1961)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-123.1570, 49.6810, 400],
+          [-123.1569, 49.6812, 450],
+          [-123.1568, 49.6814, 500],
+          [-123.1567, 49.6816, 550],
+          [-123.1566, 49.6818, 600]
+        ]
+      },
+      "properties": {
+        "name": "Apron Strings",
+        "grade": "5.10",
+        "length": 350,
+        "pitches": 6,
+        "description": "An excellent moderate climb on the Apron. Great exposure and varied climbing."
+      }
+    }
+  ]
+}

@@ -1,0 +1,580 @@
+{
+  "tilejson": "2.1.0",
+  "name": "Squamish Chief BC LiDAR",
+  "description": "BC LiDAR terrain for Squamish Chief climbing area",
+  "version": "1.1.0",
+  "format": "quantized-mesh-1.0",
+  "attribution": "BC LiDAR Program",
+  "scheme": "tms",
+  "tiles": [
+    "{z}/{x}/{y}.terrain"
+  ],
+  "bounds": [
+    -123.1501,
+    49.675,
+    -123.1273,
+    49.7
+  ],
+  "available": [
+    [
+      {
+        "startX": 0,
+        "startY": 0,
+        "endX": 0,
+        "endY": 0
+      },
+      {
+        "startX": 1,
+        "startY": 0,
+        "endX": 1,
+        "endY": 0
+      }
+    ],
+    [
+      {
+        "startX": 0,
+        "startY": 1,
+        "endX": 0,
+        "endY": 1
+      }
+    ],
+    [
+      {
+        "startX": 1,
+        "startY": 3,
+        "endX": 1,
+        "endY": 3
+      }
+    ],
+    [
+      {
+        "startX": 2,
+        "startY": 6,
+        "endX": 2,
+        "endY": 6
+      }
+    ],
+    [
+      {
+        "startX": 5,
+        "startY": 12,
+        "endX": 5,
+        "endY": 12
+      }
+    ],
+    [
+      {
+        "startX": 10,
+        "startY": 24,
+        "endX": 10,
+        "endY": 24
+      }
+    ],
+    [
+      {
+        "startX": 20,
+        "startY": 49,
+        "endX": 20,
+        "endY": 49
+      }
+    ],
+    [
+      {
+        "startX": 40,
+        "startY": 99,
+        "endX": 40,
+        "endY": 99
+      }
+    ],
+    [
+      {
+        "startX": 80,
+        "startY": 198,
+        "endX": 80,
+        "endY": 198
+      }
+    ],
+    [
+      {
+        "startX": 161,
+        "startY": 397,
+        "endX": 161,
+        "endY": 397
+      }
+    ],
+    [
+      {
+        "startX": 323,
+        "startY": 794,
+        "endX": 323,
+        "endY": 794
+      }
+    ],
+    [
+      {
+        "startX": 646,
+        "startY": 1589,
+        "endX": 646,
+        "endY": 1589
+      },
+      {
+        "startX": 647,
+        "startY": 1589,
+        "endX": 647,
+        "endY": 1589
+      }
+    ],
+    [
+      {
+        "startX": 1293,
+        "startY": 3178,
+        "endX": 1293,
+        "endY": 3178
+      },
+      {
+        "startX": 1294,
+        "startY": 3178,
+        "endX": 1294,
+        "endY": 3178
+      }
+    ],
+    [
+      {
+        "startX": 2587,
+        "startY": 6356,
+        "endX": 2587,
+        "endY": 6357
+      },
+      {
+        "startX": 2588,
+        "startY": 6356,
+        "endX": 2588,
+        "endY": 6357
+      }
+    ],
+    [
+      {
+        "startX": 5174,
+        "startY": 12713,
+        "endX": 5174,
+        "endY": 12715
+      },
+      {
+        "startX": 5175,
+        "startY": 12713,
+        "endX": 5175,
+        "endY": 12715
+      },
+      {
+        "startX": 5176,
+        "startY": 12713,
+        "endX": 5176,
+        "endY": 12715
+      }
+    ],
+    [
+      {
+        "startX": 10349,
+        "startY": 25427,
+        "endX": 10349,
+        "endY": 25431
+      },
+      {
+        "startX": 10350,
+        "startY": 25427,
+        "endX": 10350,
+        "endY": 25431
+      },
+      {
+        "startX": 10351,
+        "startY": 25427,
+        "endX": 10351,
+        "endY": 25431
+      },
+      {
+        "startX": 10352,
+        "startY": 25427,
+        "endX": 10352,
+        "endY": 25431
+      },
+      {
+        "startX": 10353,
+        "startY": 25427,
+        "endX": 10353,
+        "endY": 25431
+      }
+    ],
+    [
+      {
+        "startX": 20698,
+        "startY": 50854,
+        "endX": 20698,
+        "endY": 50863
+      },
+      {
+        "startX": 20699,
+        "startY": 50854,
+        "endX": 20699,
+        "endY": 50863
+      },
+      {
+        "startX": 20700,
+        "startY": 50854,
+        "endX": 20700,
+        "endY": 50863
+      },
+      {
+        "startX": 20701,
+        "startY": 50854,
+        "endX": 20701,
+        "endY": 50863
+      },
+      {
+        "startX": 20702,
+        "startY": 50854,
+        "endX": 20702,
+        "endY": 50863
+      },
+      {
+        "startX": 20703,
+        "startY": 50854,
+        "endX": 20703,
+        "endY": 50863
+      },
+      {
+        "startX": 20704,
+        "startY": 50854,
+        "endX": 20704,
+        "endY": 50863
+      },
+      {
+        "startX": 20705,
+        "startY": 50854,
+        "endX": 20705,
+        "endY": 50863
+      },
+      {
+        "startX": 20706,
+        "startY": 50854,
+        "endX": 20706,
+        "endY": 50863
+      }
+    ],
+    [
+      {
+        "startX": 41396,
+        "startY": 101708,
+        "endX": 41396,
+        "endY": 101726
+      },
+      {
+        "startX": 41397,
+        "startY": 101708,
+        "endX": 41397,
+        "endY": 101726
+      },
+      {
+        "startX": 41398,
+        "startY": 101708,
+        "endX": 41398,
+        "endY": 101726
+      },
+      {
+        "startX": 41399,
+        "startY": 101708,
+        "endX": 41399,
+        "endY": 101726
+      },
+      {
+        "startX": 41400,
+        "startY": 101708,
+        "endX": 41400,
+        "endY": 101726
+      },
+      {
+        "startX": 41401,
+        "startY": 101708,
+        "endX": 41401,
+        "endY": 101726
+      },
+      {
+        "startX": 41402,
+        "startY": 101708,
+        "endX": 41402,
+        "endY": 101726
+      },
+      {
+        "startX": 41403,
+        "startY": 101708,
+        "endX": 41403,
+        "endY": 101726
+      },
+      {
+        "startX": 41404,
+        "startY": 101708,
+        "endX": 41404,
+        "endY": 101726
+      },
+      {
+        "startX": 41405,
+        "startY": 101708,
+        "endX": 41405,
+        "endY": 101726
+      },
+      {
+        "startX": 41406,
+        "startY": 101708,
+        "endX": 41406,
+        "endY": 101726
+      },
+      {
+        "startX": 41407,
+        "startY": 101708,
+        "endX": 41407,
+        "endY": 101726
+      },
+      {
+        "startX": 41408,
+        "startY": 101708,
+        "endX": 41408,
+        "endY": 101726
+      },
+      {
+        "startX": 41409,
+        "startY": 101708,
+        "endX": 41409,
+        "endY": 101726
+      },
+      {
+        "startX": 41410,
+        "startY": 101708,
+        "endX": 41410,
+        "endY": 101726
+      },
+      {
+        "startX": 41411,
+        "startY": 101708,
+        "endX": 41411,
+        "endY": 101726
+      },
+      {
+        "startX": 41412,
+        "startY": 101708,
+        "endX": 41412,
+        "endY": 101726
+      },
+      {
+        "startX": 41413,
+        "startY": 101708,
+        "endX": 41413,
+        "endY": 101726
+      }
+    ],
+    [
+      {
+        "startX": 82793,
+        "startY": 203416,
+        "endX": 82793,
+        "endY": 203452
+      },
+      {
+        "startX": 82794,
+        "startY": 203416,
+        "endX": 82794,
+        "endY": 203452
+      },
+      {
+        "startX": 82795,
+        "startY": 203416,
+        "endX": 82795,
+        "endY": 203452
+      },
+      {
+        "startX": 82796,
+        "startY": 203416,
+        "endX": 82796,
+        "endY": 203452
+      },
+      {
+        "startX": 82797,
+        "startY": 203416,
+        "endX": 82797,
+        "endY": 203452
+      },
+      {
+        "startX": 82798,
+        "startY": 203416,
+        "endX": 82798,
+        "endY": 203452
+      },
+      {
+        "startX": 82799,
+        "startY": 203416,
+        "endX": 82799,
+        "endY": 203452
+      },
+      {
+        "startX": 82800,
+        "startY": 203416,
+        "endX": 82800,
+        "endY": 203452
+      },
+      {
+        "startX": 82801,
+        "startY": 203416,
+        "endX": 82801,
+        "endY": 203452
+      },
+      {
+        "startX": 82802,
+        "startY": 203416,
+        "endX": 82802,
+        "endY": 203452
+      },
+      {
+        "startX": 82803,
+        "startY": 203416,
+        "endX": 82803,
+        "endY": 203452
+      },
+      {
+        "startX": 82804,
+        "startY": 203416,
+        "endX": 82804,
+        "endY": 203452
+      },
+      {
+        "startX": 82805,
+        "startY": 203416,
+        "endX": 82805,
+        "endY": 203452
+      },
+      {
+        "startX": 82806,
+        "startY": 203416,
+        "endX": 82806,
+        "endY": 203452
+      },
+      {
+        "startX": 82807,
+        "startY": 203416,
+        "endX": 82807,
+        "endY": 203452
+      },
+      {
+        "startX": 82808,
+        "startY": 203416,
+        "endX": 82808,
+        "endY": 203452
+      },
+      {
+        "startX": 82809,
+        "startY": 203416,
+        "endX": 82809,
+        "endY": 203452
+      },
+      {
+        "startX": 82810,
+        "startY": 203416,
+        "endX": 82810,
+        "endY": 203452
+      },
+      {
+        "startX": 82811,
+        "startY": 203416,
+        "endX": 82811,
+        "endY": 203452
+      },
+      {
+        "startX": 82812,
+        "startY": 203416,
+        "endX": 82812,
+        "endY": 203452
+      },
+      {
+        "startX": 82813,
+        "startY": 203416,
+        "endX": 82813,
+        "endY": 203452
+      },
+      {
+        "startX": 82814,
+        "startY": 203416,
+        "endX": 82814,
+        "endY": 203452
+      },
+      {
+        "startX": 82815,
+        "startY": 203416,
+        "endX": 82815,
+        "endY": 203452
+      },
+      {
+        "startX": 82816,
+        "startY": 203416,
+        "endX": 82816,
+        "endY": 203452
+      },
+      {
+        "startX": 82817,
+        "startY": 203416,
+        "endX": 82817,
+        "endY": 203452
+      },
+      {
+        "startX": 82818,
+        "startY": 203416,
+        "endX": 82818,
+        "endY": 203452
+      },
+      {
+        "startX": 82819,
+        "startY": 203416,
+        "endX": 82819,
+        "endY": 203452
+      },
+      {
+        "startX": 82820,
+        "startY": 203416,
+        "endX": 82820,
+        "endY": 203452
+      },
+      {
+        "startX": 82821,
+        "startY": 203416,
+        "endX": 82821,
+        "endY": 203452
+      },
+      {
+        "startX": 82822,
+        "startY": 203416,
+        "endX": 82822,
+        "endY": 203452
+      },
+      {
+        "startX": 82823,
+        "startY": 203416,
+        "endX": 82823,
+        "endY": 203452
+      },
+      {
+        "startX": 82824,
+        "startY": 203416,
+        "endX": 82824,
+        "endY": 203452
+      },
+      {
+        "startX": 82825,
+        "startY": 203416,
+        "endX": 82825,
+        "endY": 203452
+      },
+      {
+        "startX": 82826,
+        "startY": 203416,
+        "endX": 82826,
+        "endY": 203452
+      }
+    ]
+  ]
+}

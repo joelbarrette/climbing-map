@@ -1,0 +1,15 @@
+{
+  "pipeline": [
+    {
+      "type": "readers.las",
+      "filename": "/data/raw/bc_092g065_3_4_3_xyes_8_utm10_2019.laz"
+    },
+    {
+      "type": "writers.gdal",
+      "filename": "/data/processed/dem2.tif",
+      "resolution": 1.0,
+      "output_type": "mean",
+      "gdalopts": "COMPRESS=LZW"
+    }
+  ]
+}

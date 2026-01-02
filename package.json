@@ -1,0 +1,28 @@
+{
+  "name": "squamish-chief-climbing-map",
+  "version": "1.0.0",
+  "description": "3D climbing route visualization for Squamish Chief using CesiumJS and BC LiDAR data - NO Cesium Ion required",
+  "main": "app.js",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx http-server -p 8000 -c-1",
+    "download-lidar": "python scripts/download_bc_lidar.py",
+    "process-terrain": "python scripts/process_terrain.py"
+  },
+  "keywords": [
+    "climbing",
+    "cesium",
+    "3d",
+    "lidar",
+    "squamish",
+    "visualization",
+    "mapping",
+    "self-hosted"
+  ],
+  "author": "Joel Barrette",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joelbarrette/climbing-map.git"
+  }
+}
